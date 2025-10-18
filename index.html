@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <article class="profile-card" data-testid="test-profile-card">
+      <div class="profile-header">
+        <figure class="avatar-container">
+          <img
+            src="/DGF_6812 copy.jpg"
+            alt="User Avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+        <div class="user-info">
+          <h2 data-testid="test-user-name">Elizabeth Temitope Akinsiku</h2>
+          <p class="bio" data-testid="test-user-bio">
+            A passionate web designer/developer and creator who loves crafting
+            digital experiences that inspire and connect people.
+          </p>
+          <p class="time">
+            Current time (ms): <span data-testid="test-user-time"></span>
+          </p>
+        </div>
+      </div>
+
+      <nav class="social-nav" aria-label="Social Links">
+        <ul class="social-links" data-testid="test-user-social-links">
+          <li>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+            >Twitter</a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+            >LinkedIn</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+            >GitHub</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="extra-info">
+        <section class="hobbies">
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Designing</li>
+            <li>Music</li>
+            <li>Solving Problems</li>
+          </ul>
+        </section>
+
+        <section class="dislikes">
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination</li>
+            <li>Negativity</li>
+            <li>Dishonesty</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
