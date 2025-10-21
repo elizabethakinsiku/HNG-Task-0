@@ -1,0 +1,1 @@
+I built on the previous project. Added Contact Us page with form validation, and an About Me page where you share your reflections. Also, semantic HTML, accessibility, responsiveness, and data-testid attributes were added.
